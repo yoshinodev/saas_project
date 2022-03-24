@@ -12,12 +12,31 @@ h1, h2, h3 {
     background: linear-gradient(90deg, rgba(42,101,124,1) 0%, rgba(185,239,247,1) 35%, rgba(0,212,255,1) 100%);
 }
 
-.navbar{
+/*.navbar{
     border: none;
+}*/
+
+.navbar-default .navbar-brand{
+    color: white;
+    
 }
 
+.navbar-default .navbar-nav > li > a{
+    color: white;
+} 
+
+.navbar-default .navbar-brand:hover{
+    color: white;
+    opacity: 0.75;
+}    
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: white;
+    opacity: 0.75;
+} 
+
 .home-callout {
-  color: white;
+  color: black;
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
