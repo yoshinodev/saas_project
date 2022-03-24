@@ -5,3 +5,13 @@
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
+
+body, .navbar{
+    //gradient provided by @moeamaya at https://cssgradient.io/
+    background: rgb(42,101,124);
+    background: linear-gradient(90deg, rgba(42,101,124,1) 0%, rgba(185,239,247,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.navbar{
+    border: none;
+}
