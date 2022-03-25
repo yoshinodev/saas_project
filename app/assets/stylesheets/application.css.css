@@ -2,7 +2,7 @@
 Error: File to import not found or unreadable: bootstrap-sprockets.
         on line 2 of /home/ubuntu/environment/saasapp/app/assets/stylesheets/application.css.scss
 
-1: 
+1: /* need to solve manifest later *\/
 2: @import 'bootstrap-sprockets';
 3: @import 'bootstrap';
 4: @import 'font-awesome';
@@ -56,4 +56,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: bootstrap-sprockets.\A         on line 2 of /home/ubuntu/environment/saasapp/app/assets/stylesheets/application.css.scss\A \A 1: \A 2: @import 'bootstrap-sprockets';\A 3: @import 'bootstrap';\A 4: @import 'font-awesome';\A 5: \A 6: // typography styles\A 7: h1, h2, h3 {"; }
+  content: "Error: File to import not found or unreadable: bootstrap-sprockets.\A         on line 2 of /home/ubuntu/environment/saasapp/app/assets/stylesheets/application.css.scss\A \A 1: /* need to solve manifest later */\A 2: @import 'bootstrap-sprockets';\A 3: @import 'bootstrap';\A 4: @import 'font-awesome';\A 5: \A 6: // typography styles\A 7: h1, h2, h3 {"; }
