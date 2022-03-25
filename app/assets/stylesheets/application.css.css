@@ -6,9 +6,9 @@ Error: File to import not found or unreadable: bootstrap-sprockets.
 2: @import 'bootstrap-sprockets';
 3: @import 'bootstrap';
 4: 
-5: h1, h2, h3 {
-6:     font-family: 'Open Sans', sans-serif;
-7: }
+5: // typography styles
+6: h1, h2, h3 {
+7:     font-family: 'Open Sans', sans-serif;
 
 Backtrace:
 /home/ubuntu/environment/saasapp/app/assets/stylesheets/application.css.scss:2
@@ -56,4 +56,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: bootstrap-sprockets.\A         on line 2 of /home/ubuntu/environment/saasapp/app/assets/stylesheets/application.css.scss\A \A 1: \A 2: @import 'bootstrap-sprockets';\A 3: @import 'bootstrap';\A 4: \A 5: h1, h2, h3 {\A 6:     font-family: 'Open Sans', sans-serif;\A 7: }"; }
+  content: "Error: File to import not found or unreadable: bootstrap-sprockets.\A         on line 2 of /home/ubuntu/environment/saasapp/app/assets/stylesheets/application.css.scss\A \A 1: \A 2: @import 'bootstrap-sprockets';\A 3: @import 'bootstrap';\A 4: \A 5: // typography styles\A 6: h1, h2, h3 {\A 7:     font-family: 'Open Sans', sans-serif;"; }
