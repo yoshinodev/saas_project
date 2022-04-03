@@ -13,6 +13,12 @@ attr_accessor :stripe_card_token
   def save_with_subscription
     if valid?
       customer = Stripe::Customer.create(description: email, plan: plan_id, card: stripe_card_token)
+      subscription = Stripe::Subscription.create(
+      customer: customer.id, 
+      items: [{
+      plan: 'price_1Kj5s0E17XeWbTUEEc1q9NqT' # the plan or price ID from dashboard.stripe.com
+      }]
+      )
       self.stripe_customer_token = customer.id
       save!
     end
